@@ -5,7 +5,8 @@ import numpy as np
 from PIL import Image, ImageOps
 
 # Load your trained model (replace 'model.h5' with your actual model file)
-model = load_model('model.h5')
+model = load_model('mnist_cnn_model.h5')
+
 
 st.title("Handwritten Digit Recognition")
 
